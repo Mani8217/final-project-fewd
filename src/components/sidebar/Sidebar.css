@@ -1,0 +1,65 @@
+/*to give the border-box to all of the box element in the document */
+* {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 100%;
+}
+
+/* to remove the list bulletts..*/
+ul {
+  list-style: none;
+  border-left: 1px solid whitesmoke;
+  width: 100%;
+  margin: 0;
+}
+li {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+ul li a:link,
+ul li a:visited {
+  text-decoration: none;
+  color: grey;
+}
+.sidebar {
+  max-width: 100px;
+}
+
+/*to make the screen fit to mobile screen size */
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  ul li a:link,
+  ul li a:visited {
+    color: #2f2f2f;
+  }
+  ul li a:hover {
+    font-weight: bold;
+  }
+}
+/*to make the screen fit to tablet screen size */
+@media screen and (max-width: 800px) {
+  .sidemenu {
+    background-image: url("bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 80%;
+  }
+  ul {
+    width: 100%;
+    margin: 0;
+    background-image: url("bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+  ul li a:link,
+  ul li a:visited {
+    color: #2f2f2f;
+  }
+  ul li a:hover {
+    font-weight: bold;
+  }
+}

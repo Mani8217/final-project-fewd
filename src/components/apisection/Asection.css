@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/*the body of the component */
+.asection {
+  max-width: 700px;
+  height: 700px;
+  padding: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-right: 2rem;
+}
+.kitty-box {
+  padding: 30px;
+}
+.asection .img-span {
+  margin-bottom: 2em;
+}
+.asection img {
+  max-width: 550px;
+  height: 450px;
+  background-image: url("./tiger.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+/*when the max width is less than 400px ,mobile screen size */
+
+@media screen and (max-width: 600px) {
+  .asection {
+    max-width: 400px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .asection img {
+    max-width: 300px;
+    height: 150px;
+  }
+  .kitty-box {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .asection {
+    max-width: 600px;
+  }
+  .asection img {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+/* fot lists are situated beside each other inside a flex div*/
+.footer {
+  background-color: #011321;
+  color: #c8cfd2;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.info {
+  text-align: left;
+  list-style: none;
+}
+.webAddress {
+  border-left: 1px solid #c8cfd2;
+}
+.info .logo {
+  margin-left: 30px;
+}
+.info a {
+  text-decoration: none;
+  color: #c8cfd2;
+}
+
+.info .twit-face a > * {
+  width: 50px;
+  text-align: center;
+}
+footer {
+  background-color: #011321;
+}
+footer p {
+  color: #c8cfd2;
+  text-align: left;
+}
+/*when the screen is fitted to a cellphone size */
+@media screen and (max-width: 500px) {
+  footer p {
+    text-align: center;
+  }
+}

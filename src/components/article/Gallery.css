@@ -1,0 +1,19 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-right: ;
+}
+.gallery-container .col {
+  max-width: 280px;
+  overflow: hidden;
+}
+.gallery-container .col img {
+  max-width: 280px;
+  height: 280px;
+}
+@media screen and (max-width: 400px) {
+  .gallery-container .item3 {
+    display: none;
+  }
+}

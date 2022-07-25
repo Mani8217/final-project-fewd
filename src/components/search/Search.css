@@ -1,0 +1,22 @@
+.srch input {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.srch {
+  position: relative;
+  background-color: red;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  z-index: 1;
+  visibility: hidden;
+  text-align: center;
+  overflow: hidden;
+}
+.srch:hover .user {
+  visibility: visible;
+}

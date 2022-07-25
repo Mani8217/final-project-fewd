@@ -1,0 +1,30 @@
+.option-container {
+  display: flex;
+  justify-content: space-around;
+}
+.option-container section {
+  max-width: 200px;
+  border: 1px solid;
+  padding: 15px;
+}
+.option-container .option-purple {
+  background-color: #a446ff;
+  color: white;
+}
+.option-container .option-orange {
+  background-color: #fea115;
+  color: white;
+}
+.option-container .option-blue {
+  background-color: #3179ff;
+  color: white;
+}
+.option-container button {
+  padding: 13px 18px;
+  margin: 8px;
+}
+.option-grid {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 2rem;
+}
