@@ -9,7 +9,7 @@
   list-style: none;
   height: 420px;
   overflow: hidden;
-  background-image: url("./bk.jpg");
+  background-color: transparent;
   display: none;
   margin-bottom: 0;
 }
@@ -24,7 +24,7 @@
   list-style: none;
   height: 420px;
   overflow: hidden;
-  background-image: url("./bk.jpg");
+  background-color: transparent;
 }
 
 .menu-container .hidden-menu {
@@ -38,9 +38,11 @@
   top: 2em;
   right: 1em;
 }
+.hidden-menu li {
+}
 .hidden-menu a:link,
 .hidden-menu a:visited {
-  color: blanchedalmond;
+  color: white;
 }
 
 @media screen and (max-width: 600px) {

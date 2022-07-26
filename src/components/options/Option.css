@@ -1,27 +1,38 @@
 .option-container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  padding: 10px;
+  column-gap: 8px;
+  background: #bab9b4;
 }
 .option-container section {
   max-width: 200px;
   border: 1px solid;
   padding: 15px;
+  position: relative;
 }
 .option-container .option-purple {
-  background-color: #a446ff;
-  color: white;
+  background-image: url("../assets/opt.jpg");
+  background-size: contain;
+  color: black;
 }
 .option-container .option-orange {
-  background-color: #fea115;
-  color: white;
+  background-image: url("../assets/opt.jpg");
+  background-size: contain;
+  color: black;
 }
 .option-container .option-blue {
-  background-color: #3179ff;
-  color: white;
+  background-image: url("../assets/opt.jpg");
+  background-size: contain;
+  color: black;
 }
 .option-container button {
-  padding: 13px 18px;
-  margin: 8px;
+  padding: 5px 18px;
+  left: 25%;
+  position: absolute;
+  bottom: -20px;
+  background-color: #fffffb;
 }
 .option-grid {
   display: grid;

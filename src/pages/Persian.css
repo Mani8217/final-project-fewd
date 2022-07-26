@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "manta";
+  src: url("../assets/fonts/manta/Montague.ttf");
+}
+
+.persbox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.persbox img:hover {
+  width: 100px;
+  height: 100px;
+}
+.persbox h1 {
+  margin-bottom: 10px;
+}
+nav li {
+  font-family: "manta";
+}

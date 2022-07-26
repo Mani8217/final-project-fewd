@@ -2,6 +2,10 @@
   box-sizing: border-box;
   font-size: 100%;
 }
+@font-face {
+  font-family: "draw";
+  src: url("../../assets/fonts/arabia/Arabia.ttf");
+}
 /*the body of the component */
 .asection {
   max-width: 700px;
@@ -15,6 +19,10 @@
 }
 .kitty-box {
   padding: 30px;
+}
+.kitty-box h3 {
+  font-family: "draw";
+  font-size: 3em;
 }
 .asection .img-span {
   margin-bottom: 2em;
@@ -50,6 +58,7 @@
 @media screen and (max-width: 800px) {
   .asection {
     max-width: 600px;
+    background-color: #bab9b4;
   }
   .asection img {
     max-width: 400px;

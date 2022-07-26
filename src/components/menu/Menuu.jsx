@@ -21,17 +21,22 @@ function Menuu() {
         <menu className="hidden-menu">
           <li>
             <a href="#" className="navbar-link">
-              profile
+              Profile
             </a>
           </li>
           <li>
             <a href="#" className="navbar-link">
-              Gallrty
+              Gallery
             </a>
           </li>
           <li>
             <a href="#" className="navbar-link">
               Albums
+            </a>
+          </li>
+          <li>
+            <a href="#" className="navbar-link">
+              About Us
             </a>
           </li>
         </menu>

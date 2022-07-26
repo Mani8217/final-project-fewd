@@ -45,10 +45,9 @@
 .main {
   display: flex;
   width: 100%;
-
-  margin: 0;
+  margin-top: 450px;
   overflow: hidden;
-  background-image: url("./assets/bkg.jpg");
+  background-color: #bab9b4;
   background-size: cover;
 }
 
@@ -79,26 +78,27 @@
   .header {
     max-width: 600px;
     overflow: hidden;
-    margin-bottom: 0;
   }
   .App {
-    background-color: black;
+    background-color: #52644a;
     row-gap: 0;
   }
   .main {
     max-width: 600px;
     overflow: hidden;
-    margin-top: 0;
+    background-color: #bab9b4;
   }
   .asection {
     max-width: 600px;
     margin-right: auto;
     margin-left: auto;
+    background-color: #bab9b4;
   }
   .mygallery {
     font-size: 70%;
     max-width: 600px;
-    color: whitesmoke;
+    color: black;
+    background-color: #bab9b4;
   }
   #gallery {
     max-width: 600px;
@@ -106,9 +106,8 @@
     margin-right: auto;
   }
   .vcantin {
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .vcantin > * {
   }
 }
