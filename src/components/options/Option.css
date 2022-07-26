@@ -6,25 +6,26 @@
   column-gap: 8px;
   background: #bab9b4;
 }
-.option-container section {
-  max-width: 200px;
+.option-container .option-grid {
+  max-width: 400px;
+  height: 450px;
   border: 1px solid;
   padding: 15px;
   position: relative;
 }
 .option-container .option-purple {
   background-image: url("../assets/opt.jpg");
-  background-size: contain;
+  background-size: cover;
   color: black;
 }
 .option-container .option-orange {
   background-image: url("../assets/opt.jpg");
-  background-size: contain;
+  background-size: cover;
   color: black;
 }
 .option-container .option-blue {
   background-image: url("../assets/opt.jpg");
-  background-size: contain;
+  background-size: cover;
   color: black;
 }
 .option-container button {
@@ -38,4 +39,21 @@
   display: grid;
   grid-template-columns: auto;
   row-gap: 2rem;
+}
+.myregister {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 800px) {
+  .option-blue {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .option-container {
+    grid-template-columns: auto;
+    row-gap: 30px;
+    background-color: #52644a;
+  }
 }

@@ -7,6 +7,7 @@ import Menuu from "./components/menu/Menuu";
 import Article from "./components/article/Article";
 import Footer from "./components/footer/Footer";
 import Option from "./components/options/Option";
+import Myform from "./components/myform/Myform";
 
 import "./App.css";
 

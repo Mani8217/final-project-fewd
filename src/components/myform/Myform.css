@@ -1,0 +1,29 @@
+form {
+  background-color: transparent;
+  padding: 0;
+}
+
+.signup input.text {
+  color: ;
+
+  width: auto;
+  height: auto;
+}
+
+form p {
+  clear: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+form p label {
+  float: left;
+  width: 30%;
+  font: bold 0.9em Arial, helvetica, sans-serif;
+}
+fieldset {
+  width: 80%;
+  background-color: transparent;
+  padding: 10px;
+  color: black;
+}

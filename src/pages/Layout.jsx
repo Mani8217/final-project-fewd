@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import "./Persian.css";
 
 const Layout = () => {
   return (
@@ -9,10 +10,13 @@ const Layout = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/blogs">Persian</Link>
+            <Link to="/persian">Persian</Link>
           </li>
           <li>
-            <Link to="/contact">British</Link>
+            <Link to="/british">British</Link>
+          </li>
+          <li>
+            <Link to="/form">Register</Link>
           </li>
         </ul>
       </nav>

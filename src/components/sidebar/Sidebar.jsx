@@ -6,6 +6,7 @@ import Home from "../../pages/Home";
 import Persian from "../../pages/Persian";
 import British from "../../pages/British";
 import NoPage from "../../pages/NoPage";
+import Form from "../../pages/Form";
 function Sidebar() {
   return (
     <div className="sidemenu">
@@ -14,8 +15,9 @@ function Sidebar() {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
-              <Route path="blogs" element={<Persian />} />
-              <Route path="contact" element={<British />} />
+              <Route path="persian" element={<Persian />} />
+              <Route path="british" element={<British />} />
+              <Route path="form" element={<Form />}></Route>
               <Route path="*" element={<NoPage />} />
             </Route>
           </Routes>
