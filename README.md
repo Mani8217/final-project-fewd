@@ -8,6 +8,10 @@
 is a website to you can find cat´s photos , and films that are taked by their keepers,
 you also can find post cards with cat´s photo..
 
+# Demo
+
+![Demo](./src/assets/myvideo.mp4)
+
 ## features
 
 <li>cat´s images API</li>
@@ -24,6 +28,10 @@ you also can find post cards with cat´s photo..
 <li><a href='#'>React Link</a></li>
 <li><a href='#'>React API</a></li>
 <li><a href=''#>React Browser-router</a>
+
+# How to colon it:
+
+git clone https://https://github.com/Mani8217/final-project-fewd.git
 
 # This project was bootstrapped with [Create React App](https://github.com/Mani8217/final-project-fewd).
 
