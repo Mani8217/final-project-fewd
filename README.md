@@ -1,23 +1,35 @@
-<<<<<<< HEAD
 # my final project
 
 ![first preview](<./src/assets/Screenshot%20(72).jpg>)
 ![second preview](<./src/assets/Screenshot%20(71).jpg>)
 
-###Cats World :
+## Cats World :
+
 is a website to you can find cat´s photos , and films that are taked by their keepers,
 you also can find post cards with cat´s photo..
 
-This project was bootstrapped with [Create React App](https://github.com/Mani8217/final-project-fewd).
-=======
-#Final Project GA
-![preview](https://ibb.co/xXQxbb3)
-![my project preview](https://ibb.co/5cBfXfQ)
->>>>>>> 284f4bf4ab2bb6258dd9090b26a2386ffa11b03d
+## features
+
+<li>cat´s images API</li>
+<li>Cats photo Gallery</li>
+<li>cat youtube videos</li>
+<li>cat postal code create in diffrent pages conected by router</li>
+
+## Technology used:
+
+<li><a href='#'>React</a></li>
+<li><a href='#'>Axios</a></li>
+<li><a href='#'>React Router</a></li>
+<li><a href='#'>React-icons</a></li>
+<li><a href='#'>React Link</a></li>
+<li><a href='#'>React API</a></li>
+<li><a href=''#>React Browser-router</a>
+
+# This project was bootstrapped with [Create React App](https://github.com/Mani8217/final-project-fewd).
 
 ## Available Scripts
 
-<a href=>
+<a href=https://fewd-es-mani-final.netlify.app>
 In the project directory, you can run:
 
 ### `npm start`
