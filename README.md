@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # my final project
 
 ![first preview](<./src/assets/Screenshot%20(72).jpg>)
@@ -8,6 +9,11 @@ is a website to you can find cat´s photos , and films that are taked by their k
 you also can find post cards with cat´s photo..
 
 This project was bootstrapped with [Create React App](https://github.com/Mani8217/final-project-fewd).
+=======
+#Final Project GA
+![preview](https://ibb.co/xXQxbb3)
+![my project preview](https://ibb.co/5cBfXfQ)
+>>>>>>> 284f4bf4ab2bb6258dd9090b26a2386ffa11b03d
 
 ## Available Scripts
 
