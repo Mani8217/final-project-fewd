@@ -1,9 +1,17 @@
-# Getting Started with Create React App
+# my final project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![first preview](<./src/assets/Screenshot%20(72).jpg>)
+![second preview](<./src/assets/Screenshot%20(71).jpg>)
+
+###Cats World :
+is a website to you can find cat´s photos , and films that are taked by their keepers,
+you also can find post cards with cat´s photo..
+
+This project was bootstrapped with [Create React App](https://github.com/Mani8217/final-project-fewd).
 
 ## Available Scripts
 
+<a href=>
 In the project directory, you can run:
 
 ### `npm start`
