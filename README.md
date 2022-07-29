@@ -1,7 +1,6 @@
 # my final project
 
-![first preview](<./src/assets/Screenshot%20(72).jpg>)
-![second preview](<./src/assets/Screenshot%20(71).jpg>)
+![first preview](<./src/assets/preview.jpg)
 
 ## Cats World :
 
