@@ -28,9 +28,13 @@ you also can find post cards with cat´s photo..
 <li><a href='#'>React API</a></li>
 <li><a href=''#>React Browser-router</a>
 
-# How to colon it:
+## How to colone it:
 
 git clone https://https://github.com/Mani8217/final-project-fewd.git
+
+## wireframe :
+
+<a href='./src/assets/wireframe.jpg'>Home</a>
 
 # This project was bootstrapped with [Create React App](https://github.com/Mani8217/final-project-fewd).
 
