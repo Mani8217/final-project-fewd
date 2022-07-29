@@ -34,13 +34,13 @@ git clone https://https://github.com/Mani8217/final-project-fewd.git
 
 ## wireframe :
 
-<a href='./src/assets/wireframe.jpg'>Home</a>
+<a href='https://ibb.co/VM0LNRF'>Home</a>
 
 # This project was bootstrapped with [Create React App](https://github.com/Mani8217/final-project-fewd).
 
 ## Available Scripts
 
-<a href=https://fewd-es-mani-final.netlify.app>
+<a href=>
 In the project directory, you can run:
 
 ### `npm start`
