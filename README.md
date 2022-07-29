@@ -1,6 +1,6 @@
 # my final project
 
-![first preview](<./src/assets/preview.jpg)
+![first preview](./src/assets/preview.jpg)
 
 ## Cats World :
 
