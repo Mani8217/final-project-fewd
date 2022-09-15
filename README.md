@@ -4,8 +4,8 @@
 
 ## Cats World :
 
-is a website to you can find cat´s photos , and films that are taked by their keepers,
-you also can find post cards with cat´s photo..
+is a website to you can find cat´s photos , and films that are taken by their Homemates(keepers),
+you also can find postcards of cats..
 
 # Demo
 
